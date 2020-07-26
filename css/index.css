@@ -14,7 +14,7 @@ body {
     position: relative;
     height: fit-content;
     width: cover;
-    background: url(../images/BACKDROUND_NEW.svg);
+    background: url(./images/BACKDROUND_NEW.svg);
     margin: 0px 40px 0px 40px;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +22,7 @@ body {
 }
 
 .logo-container {
-    background-image: url(../images/backgroundlog.svg);
+    background-image: url(./images/backgroundlog.svg);
     /* background-repeat: no-repeat; */
     height: 100%;
     width: 100%;
@@ -236,7 +236,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .container-3b1 {
-    background-image: url(../images/event-container.svg);
+    background-image: url(./images/event-container.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -528,7 +528,7 @@ tr:nth-child(even) {
         position: relative;
         height: fit-content;
         width: cover;
-        background: url(../images/BACKDROUND_NEW.svg);
+        background: url(./images/BACKDROUND_NEW.svg);
         margin: 0px 40px 0px 40px;
         display: flex;
         flex-wrap: wrap;
@@ -537,7 +537,7 @@ tr:nth-child(even) {
 
 
     .logo-container {
-        background-image: url(../images/backgroundlog.svg);
+        background-image: url(./images/backgroundlog.svg);
         /* background-repeat: no-repeat; */
         height: 100%;
         width: 100%;
@@ -773,7 +773,7 @@ tr:nth-child(even) {
     }
 
     .container-3b1 {
-        background-image: url(../images/event-container.svg);
+        background-image: url(./images/event-container.svg);
         background-repeat: no-repeat;
         background-size: 100%;
         width: 100%;
