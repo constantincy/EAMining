@@ -662,11 +662,11 @@ tr:nth-child(even) {
     }
 
     ul {
-        width: 100%;
+        width: 80%;
         display: none;
         position: relative;
         top: -30px;
-        left: -40px;
+        /* left: -40px; */
     }
 
     ul li {
@@ -919,7 +919,7 @@ tr:nth-child(even) {
     }
 
     .active {
-        background-color: #717171;
+        background-color: #ddd;
 
     }
 
