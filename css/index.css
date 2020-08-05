@@ -6,6 +6,7 @@ html {
     box-sizing: border-box;
     background-repeat: no-repeat;
     padding: 0;
+    font-family: 'Eczar', serif;
 
 
 }
@@ -14,7 +15,8 @@ body {
     position: relative;
     height: fit-content;
     width: cover;
-    background: url(../images/BACKDROUND_NEW.svg);
+    /* background: url(../images/BACKDROUND_NEW.svg); */
+    background: url(../images/background2.svg);
     margin: 0px 40px 0px 40px;
     display: flex;
     flex-wrap: wrap;
@@ -31,8 +33,9 @@ body {
 } */
 
 .topnav {
+    background-image: url(../images/backgroundlog1.svg);
     position: relative;
-    height: 100%;
+    height: 200px;
     width: 100%;
     margin: 0px 0px 10px 0;
     border-radius: 10px;
@@ -42,14 +45,14 @@ body {
 .logo {
     position: absolute;
     top: 5px;
-    height: 5px;
+    height: 150px;
     width: auto;
 }
 
-.topnav img {
+/* .topnav img {
     width: 100%;
     height: 100%;
-}
+} */
 
 .topnav a {
     position: absolute;
@@ -106,6 +109,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 ul li {
@@ -213,22 +217,24 @@ ul li:hover .sub-menu-1 ul li:hover {
 
 .container-2-3 {
     width: 98%;
-    height: 100px;
+    height: fit-content;
     margin: 10px;
     border-radius: 10px;
 }
 
 .container-3 {
-    background-color: #e7e5ee;
+    /* background-color: #e7e5ee; */
     height: fit-content;
     margin: 2%;
     display: inline-flex;
 }
 
 .container-3a {
+    background-color: #e7e5ee;
     width: 65%;
     height: 100%;
     margin: 1%;
+    border-radius: 10px;
 }
 
 .container-3a1 {
@@ -393,7 +399,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .slideshowText-1 {
-    background-image: url(../images/articles1.svg);
+    background-image: url(../images/slideshow.svg);
     background-color: #0c0c0c;
     width: 100%;
     height: 250px;
@@ -550,14 +556,17 @@ tr:nth-child(even) {
         background-position: center;
         padding: 0;
         overflow-y: scroll;
+        /* font-family: 'Open Sans', sans-serif; */
+        font-family: 'Eczar', serif;
     }
 
     body {
         position: relative;
         height: fit-content;
         width: cover;
-        background: url(../images/BACKDROUND_NEW.svg);
-        margin: 0px 40px 0px 40px;
+        /* background: url(../images/BACKDROUND_NEW.svg); */
+        background: url(../images/background2.svg);
+        margin: 0px 20px 0px 20px;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -574,22 +583,27 @@ tr:nth-child(even) {
         background-size: 100%;
     }
 
+    .backgroundlog img{
+        width: 100%;
+    }
+    
 
 
-    /* .topnav {
-        background-image: url(../images/backgroundlog.svg);
-        background-repeat: no-repeat;
-        height: 100%;
+
+    .topnav {
+        background-image: url(../images/backgroundlog1.svg);
+        /* background-repeat: no-repeat; */
+        height: 80px;
         width: 100%;
         border-radius: 10px;
         background-size: 100%;
-    } */
+    }
 
-    .topnav img {
+    /* .topnav img {
         width: 100%;
         height: auto;
         background-repeat: no-repeat;
-    }
+    } */
 
     .topnav a {
         position: absolute;
@@ -655,10 +669,9 @@ tr:nth-child(even) {
 
     .logo {
         position: relative;
-        /* top: 5px; */
-        height: 1cm;
+        top: 2px;
+        height: 50PX;
         width: auto;
-
     }
 
     ul {
@@ -687,6 +700,7 @@ tr:nth-child(even) {
 
     ul li a {
         text-decoration: none;
+        padding: 0px;
     }
 
     ul li:hover {
@@ -770,14 +784,14 @@ tr:nth-child(even) {
 
     .container-2-3 {
         width: 98%;
-        height: 100px;
+        height: fit-content;
         margin: 10px;
         border-radius: 10px;
         font-size: 60%;
     }
 
     .container-3 {
-        background-color: #e7e5ee;
+        /* background-color: #e7e5ee; */
         height: fit-content;
         margin: 2%;
         /* display: inline-flex; */
@@ -789,6 +803,7 @@ tr:nth-child(even) {
     }
 
     .container-3a {
+        background-color: #d6ac21;
         width: 100%;
         height: 100%;
         margin: 1%;
@@ -799,15 +814,16 @@ tr:nth-child(even) {
     }
 
     .container-3a1 {
+        background-color: #e7e5ee;
         width: 100%;
         height: fit-content;
         border-radius: 10px;
         margin: 1% 1% 0px 0px;
-        border-style: solid;
+        /* border-style: solid; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around
+        justify-content: space-around;
     }
 
     .container-3a1 img {
@@ -819,7 +835,8 @@ tr:nth-child(even) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around
+        justify-content: space-around;
+        padding: 0 20px 0 20px;
     }
 
     .container-3b {
