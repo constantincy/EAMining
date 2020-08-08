@@ -16,7 +16,8 @@ body {
     height: fit-content;
     width: cover;
     /* background: url(../images/BACKDROUND_NEW.svg); */
-    background: url(../images/background2.svg);
+    background: url(../images/background2a.png);
+    background-repeat: repeat;
     margin: 0px 40px 0px 40px;
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +34,7 @@ body {
 } */
 
 .topnav {
-    background-image: url(../images/backgroundlog1.svg);
+    background-image: url(../images/backgroundlog1a.png);
     position: relative;
     height: 200px;
     width: 100%;
@@ -109,7 +110,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 ul li {
@@ -399,7 +400,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .slideshowText-1 {
-    background-image: url(../images/slideshow.svg);
+    background-image: url(../images/slideshowa.png);
     background-color: #0c0c0c;
     width: 100%;
     height: 250px;
@@ -565,8 +566,9 @@ tr:nth-child(even) {
         height: fit-content;
         width: cover;
         /* background: url(../images/BACKDROUND_NEW.svg); */
-        background: url(../images/background2.svg);
-        margin: 0px 20px 0px 20px;
+        background: url(../images/background2a.png);
+        background-repeat: repeat;
+        margin: 0px 10px 0px 10px;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
@@ -583,15 +585,15 @@ tr:nth-child(even) {
         background-size: 100%;
     }
 
-    .backgroundlog img{
+    .backgroundlog img {
         width: 100%;
     }
-    
+
 
 
 
     .topnav {
-        background-image: url(../images/backgroundlog1.svg);
+        background-image: url(../images/backgroundlog1a.png);
         /* background-repeat: no-repeat; */
         height: 80px;
         width: 100%;
@@ -783,11 +785,12 @@ tr:nth-child(even) {
     }
 
     .container-2-3 {
-        width: 98%;
+        width: 90%;
         height: fit-content;
         margin: 10px;
         border-radius: 10px;
-        font-size: 60%;
+        font-size: 100%;
+        padding: 0 10px 0 10px;
     }
 
     .container-3 {
@@ -969,7 +972,7 @@ tr:nth-child(even) {
 
     .slideshowText-1 div {
         width: 90%;
-        height: 100px;
+        height: 120px;
         /* border-style: solid; */
         border-radius: 10px;
         margin: 10px 30px 10px 30px;
