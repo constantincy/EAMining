@@ -34,7 +34,7 @@ body {
 } */
 
 .topnav {
-    background-image: url(../images/backgroundlog1a.png);
+    background-image: url(../images/backgroundlog1c.png);
     position: relative;
     height: 200px;
     width: 100%;
@@ -55,7 +55,7 @@ body {
     height: 100%;
 } */
 
-.topnav a {
+.logo a {
     position: absolute;
     left: 10px;
     top: 10px;
@@ -92,6 +92,25 @@ body {
     cursor: pointer;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 60%;
+}
+
+.socialmedia ul {
+
+    display: flex;
+    list-style: none;
+}
+
+.socialmedia img {
+    width: 50%;
+    height: auto;
+}
+
+
 header {
     position: relative;
     width: 100%;
@@ -103,7 +122,7 @@ nav {
 }
 
 
-ul {
+nav ul {
     list-style: none;
     width: 100%;
     display: flex;
@@ -113,7 +132,7 @@ ul {
 
 }
 
-ul li {
+nav ul li {
     padding: 10px 10px 10px 0px;
     width: 100px;
     background-size: 100%;
@@ -122,14 +141,16 @@ ul li {
     border-radius: 10px;
 }
 
-ul li:hover {
+nav ul li:hover {
     background: #e91e63;
 }
 
-ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    /* font-family: Copperplate, Copperplate Gothic Light, fantasy; */
+}
 
 }
 
@@ -142,11 +163,21 @@ ul li a {
     font-size: 30px;
     display: none;
     cursor: pointer;
-
 }
 
-ul li:hover {
-    background: #d6ac21;
+.fa-bars:before {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background: rgb(153, 149, 149);
     border-radius: 10px;
 
 }
@@ -155,7 +186,7 @@ ul li:hover {
     display: none;
 }
 
-ul li:hover .sub-menu-1 {
+nav ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
     margin-top: 15px;
@@ -170,7 +201,7 @@ ul li:hover .sub-menu-1 {
     color: #fff;
 }
 
-ul li:hover .sub-menu-1 ul li {
+nav ul li:hover .sub-menu-1 nav ul li {
     width: 50px;
     padding: 10px;
     border-bottom: 1px dotted rgb(115, 147, 199);
@@ -180,13 +211,13 @@ ul li:hover .sub-menu-1 ul li {
     background: #e1e0e6;
 }
 
-ul li:hover .sub-menu-1 ul li:hover {
+nav ul li:hover .sub-menu-1 nav ul li:hover {
     background: #d6ac21;
     ;
 }
 
 .main-container {
-    background-color: #ddd;
+    background-color: rgb(153, 149, 149);
     height: 100%;
     width: 100%;
     border-radius: 10px;
@@ -203,7 +234,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .container-1 {
-    background-color: #d6ac21;
+    background-color: #e6e4e0;
     width: 80%;
     height: fit-content;
     margin: 5px;
@@ -211,7 +242,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .container-2 {
-    width: 98%;
+    * width: 98%;
     height: fit-content;
     border-radius: 10px;
 }
@@ -231,7 +262,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .container-3a {
-    background-color: #e7e5ee;
+    background-color: #fff;
     width: 65%;
     height: 100%;
     margin: 1%;
@@ -242,7 +273,7 @@ ul li:hover .sub-menu-1 ul li:hover {
     width: 100%;
     height: fit-content;
     border-radius: 10px;
-    margin: 1% 1% 0px 0px;
+    margin: 2% 0px 0px 0px;
     display: inline-flex;
 }
 
@@ -306,10 +337,11 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .container-3b2a {
-    width: 80%;
+    /* width: 80%; */
     height: fit-content;
     border-radius: 10px;
-    margin: 1% 1% 0px 0px;
+    margin: 1% 1% 50px 10px;
+    ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -388,7 +420,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 }
 
 .active {
-    background-color: #717171;
+    /* background-color: #717171; */
 }
 
 /* Fading animation */
@@ -429,7 +461,7 @@ ul li:hover .sub-menu-1 ul li:hover {
 
 /* Footer */
 footer {
-    background-color: #0c0c0c;
+    background-color: rgb(153, 149, 149);
     width: 100%;
     margin: 30px 0px 30px 0;
     border-radius: 10px;
@@ -444,14 +476,14 @@ footer h1 {
     font-size: 20px;
     font-style: bold;
     margin: 10px;
-    color: #ddd;
+    color: rgb(12, 12, 12);
 }
 
 footer p {
     font-size: 12px;
     font-style: bold;
     margin: 10px;
-    color: #ddd;
+    color: rgb(12, 12, 12);
 }
 
 
@@ -593,9 +625,9 @@ tr:nth-child(even) {
 
 
     .topnav {
-        background-image: url(../images/backgroundlog1a.png);
+        background-image: url(../images/backgroundlog1c.png);
         /* background-repeat: no-repeat; */
-        height: 80px;
+        height: 100px;
         width: 100%;
         border-radius: 10px;
         background-size: 100%;
@@ -607,7 +639,7 @@ tr:nth-child(even) {
         background-repeat: no-repeat;
     } */
 
-    .topnav a {
+    .logo a {
         position: absolute;
         left: 10px;
         top: 10px;
@@ -647,6 +679,27 @@ tr:nth-child(even) {
         border: none;
         cursor: pointer;
     } */
+    .socialmedia {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 1%;
+    }
+
+    .socialmedia ul {
+
+        display: flex;
+        list-style: none;
+    }
+
+    .socialmedia ul li {
+        padding: 10px;
+    }
+
+    .socialmedia img {
+        width: 40%;
+        height: auto;
+    }
 
 
     header {
@@ -669,6 +722,10 @@ tr:nth-child(even) {
         display: block;
     }
 
+    .fa-bars:before {
+        display: block;
+    }
+
     .logo {
         position: relative;
         top: 2px;
@@ -676,19 +733,19 @@ tr:nth-child(even) {
         width: auto;
     }
 
-    ul {
-        width: 80%;
+    nav ul {
+        width: 90%;
         display: none;
         position: relative;
         top: -30px;
         /* left: -40px; */
     }
 
-    ul li {
+    nav ul li {
         color: #d6ac21;
     }
 
-    ul li {
+    nav ul li {
         padding: 5px;
         width: 65px;
         margin: 10px;
@@ -696,17 +753,17 @@ tr:nth-child(even) {
         font-size: 12px;
     }
 
-    ul li:hover {
+    /* nav ul li:hover {
         background: #e91e63;
-    }
+    } */
 
-    ul li a {
+    nav ul li a {
         text-decoration: none;
         padding: 0px;
     }
 
-    ul li:hover {
-        background: #d6ac21;
+    nav ul li:hover {
+        /* background: #d6ac21; */
         border-radius: 3px;
     }
 
@@ -714,7 +771,7 @@ tr:nth-child(even) {
         display: none;
     }
 
-    ul li:hover .sub-menu-1 {
+    nav ul li:hover .sub-menu-1 {
         display: block;
         position: absolute;
         margin-top: 1px;
@@ -724,7 +781,7 @@ tr:nth-child(even) {
 
     }
 
-    ul li:hover .sub-menu-1 ul li {
+    nav ul li:hover .sub-menu-1 nav ul li {
 
         width: 50px;
         border-bottom: 1px dotted rgb(115, 147, 199);
@@ -732,7 +789,7 @@ tr:nth-child(even) {
         border-radius: 5%;
     }
 
-    ul li:hover .sub-menu-1 ul li:hover {
+    nav ul li:hover .sub-menu-1 nav ul li:hover {
         background: #d6ac21;
         width: 30px;
         border-radius: 10%;
@@ -748,7 +805,7 @@ tr:nth-child(even) {
     /* slider */
 
     .main-container {
-        background-color: #ddd;
+        background-color: rgb(153, 149, 149);
         height: 100%;
         width: fit-content;
         border-radius: 10px;
@@ -772,7 +829,7 @@ tr:nth-child(even) {
     }
 
     .container-1 {
-        background-color: #d6ac21;
+        background-color: #e6e4e0;
         width: 100%;
         height: fit-content;
         border-radius: 10px;
@@ -806,7 +863,7 @@ tr:nth-child(even) {
     }
 
     .container-3a {
-        background-color: #d6ac21;
+        background-color: #a19f9a;
         width: 100%;
         height: 100%;
         margin: 1%;
@@ -817,7 +874,7 @@ tr:nth-child(even) {
     }
 
     .container-3a1 {
-        background-color: #e7e5ee;
+        background-color: #fff;
         width: 100%;
         height: fit-content;
         border-radius: 10px;
@@ -938,10 +995,9 @@ tr:nth-child(even) {
 
     }
 
-    .active {
+    /* .active {
         background-color: #ddd;
-
-    }
+    } */
 
     /* Fading animation */
     .fade {
@@ -987,6 +1043,7 @@ tr:nth-child(even) {
     /* slider */
 
     footer {
+        background: #e6e4e0;
         /* position: absolute; */
         /* top: 40rem; */
         /* left: -5px; */
